@@ -86,7 +86,8 @@ body{
 }
 
 .section{
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -300,9 +301,12 @@ footer {
     flex-basis: calc((100% - 90px)/4);
 }
 
-
+.features{
+    padding-bottom: 0px;
+}
 
 /* ===== WHAT WE DO $ OUR TEAM===== */
+
 
 .title { /* for "what we do" & "our team" */
     font-weight: 700;
@@ -410,7 +414,7 @@ footer {
 .project-list-item{
     width: 370px;
     background: var(--project-cards-background-color);
-    border-bottom: 1px solid #EEEEEE;
+    
     box-sizing: border-box;
 
     margin-left: 30px;
@@ -433,7 +437,7 @@ footer {
     letter-spacing: 0.06em;
     color: var(--title-color);
     
-    margin: 20px 24px 4px;
+    margin-bottom: 4px;
 
 }
 
@@ -442,12 +446,23 @@ footer {
     line-height: 1.88;
 
     letter-spacing: 0.03em;
-
-    margin: 0 24px 20px;
 }
 
-.project-link .description{
+.project-list .description{
     color: var(--general-color);
+}
+
+.project-list .wrapper{
+    box-sizing: border-box;
+    display: block;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: 0;
+}
+
+
+.project-list .project-img{
+    display: block;
 }
 
 

@@ -21,7 +21,9 @@
 --hero-button-background-color-active: #188CE8;
 --hero-button-color: #FFFFFF;
 --our-team-cards-background-color: #FFFFFF;
+--our-team-section-background-color:#F5F4FA;
 --title-color: #212121;
+
 
 /* portfolio colors */
 --filter-button-background-color: #F5F4FA;
@@ -105,6 +107,10 @@ body{
     color: var(--header-contacts-color);
 }
 
+.chosen {
+    color: var(--active-link-color);
+}
+
 .header-link:hover,
 .header-link:focus {
     color: var(--active-link-color);
@@ -126,6 +132,10 @@ footer {
     font-style: normal;
     letter-spacing: 0.03em;
     color: var(--footer-contacts-color)
+}
+
+.mail-contact{
+    color:var(--footer-contacts-active-color);
 }
 
 .contacts:hover,
@@ -218,6 +228,10 @@ footer {
     color: var(--title-color);
 }
 
+.our-team{
+    background-color: var(--our-team-section-background-color);
+}
+
 .our-team-list-item{
     background-color: var(--our-team-cards-background-color);
 
@@ -289,6 +303,10 @@ footer {
     line-height: 1.88;
 
     letter-spacing: 0.03em;
+}
+
+.project-link .description{
+    color: var(--general-color);
 }
 
 

@@ -7,6 +7,9 @@
         <title>Студія</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
@@ -16,22 +19,20 @@
         <!-- HEADER -->
         <header>
             <div class="container header-container">
-                <div class="links-container">
+                <nav class="navigation">
                     <a class="logo header-logo link" href="" lang="en"><span class="web">Web</span>Studio</a>
-                    <nav class="navigation">
-                        <ul class="nav-list list">
-                            <li class="nav-list-item">
-                                <a class="nav-list-item-link link header-link chosen" href="">Студія</a>
-                            </li>
-                            <li class="nav-list-item">
-                                <a class="nav-list-item-link link header-link" href="portfolio.html">Портфолiо</a>
-                            </li>
-                            <li class="nav-list-item">
-                                <a class="nav-list-item-link link header-link" href="">Контакти</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                    <ul class="nav-list list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-item-link link header-link chosen" href="">Студія</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-item-link link header-link" href="portfolio.html">Портфолiо</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-item-link link header-link" href="">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
                 
                 <ul class="header-contacts-list list">
                     <li class="header-contacts-list-item">
@@ -51,7 +52,7 @@
         <main>
             <!-- HERO -->
             <section class="hero section">
-                <div class="container hero-container">
+                <div class="container">
                     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                     <button class="form-button" type="button">Замовити послугу</button>
                 </div>
@@ -117,39 +118,47 @@
                     <ul class="our-team-list list">
                         <li class="our-team-list-item">
                             <img class="image" src="images/team-img-1.jpg" alt="Ігор Дем'яненко" width="270" height="260">
-                            <h3 class="our-team-title our-team-text">
-                                Ігор Дем'яненко
-                            </h3>
-                            <p class="our-team-description our-team-text" lang="en">
-                                Product Designer
-                            </p>
+                            <div class="wrapper">
+                                <h3 class="our-team-title our-team-text">
+                                    Ігор Дем'яненко
+                                </h3>
+                                <p class="our-team-description our-team-text" lang="en">
+                                    Product Designer
+                                </p>
+                            </div>
                         </li>
                         <li class="our-team-list-item">
                             <img class="image" src="images/team-img-2.jpg" alt="Ольга Рєпіна" width="270" height="260">
-                            <h3 class="our-team-title our-team-text">
-                                Ольга Рєпіна
-                            </h3>
-                            <p class="our-team-description our-team-text" lang="en">
-                                Frontend Developer
-                            </p>
+                            <div class="wrapper">
+                                <h3 class="our-team-title our-team-text">
+                                    Ольга Рєпіна
+                                </h3>
+                                <p class="our-team-description our-team-text" lang="en">
+                                    Frontend Developer
+                                </p>
+                            </div>
                         </li>
                         <li class="our-team-list-item">
                             <img class="image" src="images/team-img-3.jpg" alt="Микола Тарасов" width="270" height="260">
-                            <h3 class="our-team-title our-team-text">
-                                Микола Тарасов
-                            </h3>
-                            <p class="our-team-description our-team-text" lang="en">
-                                Marketing
-                            </p>
+                            <div class="wrapper">
+                                <h3 class="our-team-title our-team-text">
+                                    Микола Тарасов
+                                </h3>
+                                <p class="our-team-description our-team-text" lang="en">
+                                    Marketing
+                                </p>
+                            </div>
                         </li>
                         <li class="our-team-list-item">
                             <img class="image" src="images/team-img-4.jpg" alt="Михайло Єрмаков" width="270" height="260">
-                            <h3 class="our-team-title our-team-text">
-                                Михайло Єрмаков
-                            </h3>
-                            <p class="our-team-description our-team-text" lang="en">
-                                UI Designer
-                            </p>
+                            <div class="wrapper">
+                                <h3 class="our-team-title our-team-text">
+                                    Михайло Єрмаков
+                                </h3>
+                                <p class="our-team-description our-team-text" lang="en">
+                                    UI Designer
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </div>
